@@ -1,0 +1,21 @@
+body {
+    background-color: #498edd;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Cause', sans-serif;
+    text-decoration: none;
+    background-color: rgb(215, 119, 87);
+    color: rgb(232, 104, 104);
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+}
