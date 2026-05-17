@@ -1,11 +1,17 @@
 body {
     background-color: #498edd;
 }
-ul,p {
+
+nav{
     font-family: 'Cause', sans-serif;
     text-decoration: none;
     background-color: #498edd;
     color: #498edd;
+}
+
+p,a,.card-title,.card-text,.btn{
+    font-family: 'Cause', sans-serif;
+    text-decoration: none;
 }
 
 a{

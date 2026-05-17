@@ -1,18 +1,24 @@
 body {
     background-color: #498edd;
 }
-nav {
+
+nav{
     font-family: 'Cause', sans-serif;
     text-decoration: none;
     background-color: #498edd;
     color: #498edd;
 }
 
+p,a,.card-title,.card-text,.btn{
+    font-family: 'Cause', sans-serif;
+    text-decoration: none;
+}
+
 a{
     text-decoration: none;
 }
 
-img. {
+img.logo {
     border-radius: 50%;
 }
 
@@ -34,4 +40,85 @@ img {
 .card img{
     height: 200px;
     object-fit: cover;
+}
+
+.card{
+    transition: 0.3s;
+    overflow: hidden;
+    background-color: rgba(199, 200, 228, 0.9);
+}
+
+.card img{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card .btn{
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 992px){
+
+    .col-3{
+        width: 33.33%;
+    }
+
+    .card img{
+        height: 180px;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+
+    .col-3{
+        width: 33.33%;
+    }
+
+    .card img{
+        height: 180px;
+    }
+}
+
+/* ===== TÉLÉPHONE ===== */
+
+@media screen and (max-width: 768px){
+
+    .col-3{
+        width: 50%;
+    }
+
+    .card{
+        transform: scale(0.95);
+    }
+
+    .card img{
+        height: 100px;
+    }
+
+    .card-title{
+        font-size: 16px;
+    }
+
+    .card-text{
+        font-size: 15px;
+    }
+
+    .btn{
+        font-size: 15px;
+        padding: 5px;
+    }
 }
