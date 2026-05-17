@@ -5,41 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>JFB</title>
-    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid header-border">
+    <div class="container-fluid-mb-0 header-border">
         <div class="row">
             <div class="col-3 d-flex align-items-center">
                 <p class="m-0"><img class="imag-fluide rounded-6" src="../src/logo.png" alt="Logo" width="150" height="200"></p>
             </div>
 
             <div class="col-6 row justify-content-center d-flex align-items-center">
-                <ul class="nav nav-pills nav-fill rounded-5" id="nav_bar" role="tablist" style="background-color: rgb(71, 141, 225);">
-                    <li class="nav-item">
-                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="#" role="tab" aria-selected="true">ACCUEIL</a>
-                    </li>
+                <nav class="nav nav-pills nav-fill rounded-5" id="nav_bar" role="tablist" style="background-color: rgb(71, 141, 225);">
+                    <p class="nav-item">
+                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="../page/index.html" role="tab" aria-selected="true">ACCUEIL</a>
+                    </p>
 
-                    <li class="nav-item">
-                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="#" role="tab" aria-selected="false">COMMANDE</a>
-                    </li>
+                    <p class="nav-item">
+                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="../page/commande.html" role="tab" aria-selected="false">COMMANDE</a>
+                    </p>
 
-                    <li class="nav-item">
-                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="#" role="tab" aria-selected="false">MENU</a>
-                    </li>
+                    <p class="nav-item">
+                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="../page/menu.html" role="tab" aria-selected="false">MENU</a>
+                    </p>
 
-                    <li class="nav-item">
-                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="#" role="tab" aria-selected="false">A PROPOS</a>
-                    </li>
-                </ul>
+                    <p class="nav-item">
+                        <a class="nav-link border border-dark me-4 text-dark rounded-5" href="../page/a_propos.html" role="tab" aria-selected="false">A PROPOS</a>
+                    </p>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container-fluid ">
+            <div class="text-secondary-emphasis">
+
+                <!-- <div class="row">
+                    <div class="col-6 d-flex align-items-center justify-content-center">
+                        <img class="imag-fluide rounded-6" src="../src/pizza.png" alt="Pizza" width="400" height="400">
+                    </div>
+                </div> -->
+
+                <p> <br> <br> <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis excepturi nam voluptas? Ipsa, 
+                    cumque? Ipsa optio sequi molestiae exercitationem architecto eaque debitis beatae ipsum officiis culpa? Nihil ipsa officia architecto?  
+                <br> <br> <br></p>            
             </div>
 
-            
-            
+        
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-3">
+                        <div class="card border border-dark rounded-5">
+                            <img src="../src/banane.webp" class="card-img-top rounded-top-5" alt="banane">
+                        <div class="card-body">
+                            <h5 class="card-title">Banana</h5>
+                            <p class="card-text">Some quick example text.</p>
+                            <a href="#" class="btn btn-primary">Commander</a>
+                        </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card border border-dark rounded-5">
+                            <img src="../src/burger.jpg" class="card-img-top rounded-top-5" alt="burger">
+                            <div class="card-body">
+                                <h5 class="card-title">Burger</h5>
+                                <p class="card-text">Some .</p>
+                                <a href="#" class="btn btn-primary">Commander</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card border border-dark rounded-5">
+                            <img src="../src/chenielle.jpg" class="card-img-top rounded-top-5" alt="chenielle">
+                            <div class="card-body">
+                                <h5 class="card-title">Chenielle</h5>
+                                <p class="card-text">text.</p>
+                                <a href="#" class="btn btn-primary">Commander</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card border border-dark rounded-5">
+                            <img src="../src/cuisse_de_poulet.jpg" class="card-img-top rounded-top-5" alt="cuisse_de_poulet">
+                            <div class="card-body">
+                                <h5 class="card-title">Cuisse de Poulet</h5>
+                                <p class="card-text">text.</p>
+                                <a href="#" class="btn btn-primary">Commander</a>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="col-3">
+                        <div class="card border border-dark rounded-5">
+                            <img src="../src/frite.jpg" class="card-img-top rounded-top-5" alt="frite">
+                            <div class="card-body">
+                                <h5 class="card-title">Frite</h5>
+                                <p class="card-text">text.</p>
+                                <a href="#" class="btn btn-primary">Commander</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+        </div>
+
+        
+
+
+
+
     </div>
  
     
