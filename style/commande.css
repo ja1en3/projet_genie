@@ -13,6 +13,7 @@ p,a,.card-title,.card-text,.btn{
     font-family: 'Cause', sans-serif;
     text-decoration: none;
 }
+
 p{
     color: #000000;
 }
@@ -21,23 +22,17 @@ a{
     text-decoration: none;
 }
 
-img.logo {
-    border-radius: 50%;
-}
-
-img {
-    border-image:none;
-    border-color: rgb(255, 255, 255);
-    width: 100%;
-}
-
-.container-fluid {
+.container-fluid-mb-0 {
     background-image: linear-gradient(#a6b9ce,
     rgba(0,0,0,0.5)),url("../src/shawarma.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+img {
+    border-radius: 50%;
 }
 
 .card img{
@@ -66,33 +61,23 @@ img {
     text-align: center;
 }
 
-.card .btn{
+input.btn{
     width: 100%;
     border-radius: 30px;
+}
+
+form {
+    background-color: rgb(56, 56, 74);
+    transform: translateY(20px);
+    border-radius: 20px;
 }
 
 /* ===== RESPONSIVE ===== */
 
 @media screen and (max-width: 992px){
 
-    .col-3{
-        width: 33.33%;
-    }
-
-    .card img{
-        height: 180px;
-    }
-}
-
-
-@media screen and (max-width: 992px){
-
-    .col-3{
-        width: 33.33%;
-    }
-
-    .card img{
-        height: 180px;
+    .col-8{
+        width: 75%;
     }
 }
 
