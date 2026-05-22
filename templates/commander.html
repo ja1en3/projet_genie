@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Commandes</title>
+</head>
+<body>
+
+<h1>Liste des commandes</h1>
+
+{% for commande in commandes %}
+
+<div>
+
+    <h3>{{ commande.nom }}</h3>
+
+    <p>Email : {{ commande.email }}</p>
+
+    <p>Téléphone : {{ commande.telephone }}</p>
+
+    <p>Adresse : {{ commande.adresse }}</p>
+
+    <p>Détails : {{ commande.details }}</p>
+
+    <p>Statut : {{ commande.statut }}</p>
+
+    <a href="/admin/{{ commande.id }}">
+        Modifier statut
+    </a>
+
+    <hr>
+
+</div>
+
+    <a href="../commande" class="btn btn-outline-primary">Retour à la page de commande</a>
+
+{% endfor %}
+
+
+
+</body>
+</html>
