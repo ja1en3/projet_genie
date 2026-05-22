@@ -1,20 +1,23 @@
 body {
-    background-color: #498edd;
+    background-color: #000000;
 }
 
-nav{
+ #nav_bar{
     font-family: 'Cause', sans-serif;
     text-decoration: none;
-    background-color: #498edd;
-    color: #498edd;
+    background-color: rgb(0, 0, 0);
+    color:  rgb(0, 0, 0);
 }
+
 
 p,a,.card-title,.card-text,.btn{
     font-family: 'Cause', sans-serif;
     text-decoration: none;
+
 }
-p{
-    color: #000000;
+
+a, p{
+    color: #ffffff;
 }
 
 a{
@@ -31,14 +34,14 @@ img {
     width: 100%;
 }
 
-.container-fluid {
+/* .container-fluid {
     background-image: linear-gradient(#a6b9ce,
     rgba(0,0,0,0.5)),url("../src/shawarma.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+} */
 
 .card img{
     height: 200px;
