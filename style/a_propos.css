@@ -1,0 +1,208 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police système standard */
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-color: saddlebrown;
+            line-height: 1.6;
+            text-decoration: white;
+}
+
+header {
+            border-bottom: 1px solid #eaeaea;
+            padding: 10px 0;
+            background: white;
+}
+
+.header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+}
+
+#A1{
+    text-decoration: white;
+}
+
+        .search-bar {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 8px 15px;
+            width: 40%;
+            color: #888;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #777;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        .promo-banner {
+            background-color: #7d5a7a; /* Violet délavé */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .promo-banner span.disponible {
+            border: 1px solid white;
+            border-radius: 15px;
+            padding: 2px 10px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        /* 3. Section Chiffres Clés (Hero Section) */
+        .key-stats {
+            background-color: #fcf8f5; /* Crème très clair */
+            padding: 60px 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            width: 22%;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.3;
+        }
+
+        /* 4. Section Présentation de l'entreprise */
+        .presentation {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 80px 20px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .presentation-image {
+            flex: 1;
+        }
+
+        .presentation-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Ombre légère */
+        }
+
+        .presentation-text {
+            flex: 2;
+        }
+
+        .presentation-text h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .presentation-text p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* 5. Pied de page (Footer) */
+        footer {
+            background-color: #f9f9f9;
+            padding: 60px 0 30px;
+            border-top: 1px solid #eee;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .footer-col {
+            width: 30%;
+        }
+
+        .footer-col h4 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            text-decoration: none;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .newsletter-form button {
+            background-color: #a8819e; /* Violet/Mauve du bouton */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 12px;
+            color: #aaa;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
