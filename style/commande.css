@@ -14,7 +14,7 @@ p,a,.card-title,.card-text,.btn{
     text-decoration: none;
 }
 
-a,p{
+a,p,label {
     color: #ffffff;
 }
 
@@ -31,39 +31,24 @@ a{
     background-attachment: fixed;
 } */
 
-img {
-    border-radius: 50%;
-}
+/* ===== FORMULAIRE ===== */
 
-.card img{
-    height: 200px;
-    object-fit: cover;
-}
-
-.card{
+form{
+    backdrop-filter: blur(5px);
+    border-radius: 25px !important;
+    padding: 30px !important;
     transition: 0.3s;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.card img{
-    height: 220px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.card-title{
-    font-weight: bold;
-    text-align: center;
-}
-
-.card-text{
-    text-align: center;
 }
 
 input.btn{
     width: 100%;
     border-radius: 30px;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.3s;
 }
 
 /* form {
@@ -72,41 +57,43 @@ input.btn{
     border-radius: 20px;
 } */
 
-/* ===== RESPONSIVE ===== */
+/* ===== INPUT ===== */
 
-@media screen and (max-width: 992px){
-
-    .col-8{
-        width: 75%;
-    }
+.form-control{
+    border-radius: 15px;
+    padding: 12px;
+    transition: 0.3s;
+    background: rgba(255,255,255,0.08);
 }
 
-/* ===== TÉLÉPHONE ===== */
+/* téléphone */
 
 @media screen and (max-width: 768px){
 
-    .col-3{
-        width: 50%;
+     #nav_bar{
+        margin-left: auto;
+        margin-right: 0;
     }
 
-    .card{
-        transform: scale(0.95);
+    form{
+        width: 100% !important;
+        padding: 20px !important;
     }
 
-    .card img{
-        height: 100px;
-    }
-
-    .card-title{
+    .form-label{
         font-size: 16px;
     }
 
-    .card-text{
-        font-size: 15px;
+    .form-control{
+        padding: 10px;
     }
 
     .btn{
-        font-size: 15px;
-        padding: 5px;
+        font-size: 14px;
+    }
+
+    .container-fluid p{
+        font-size: 16px;
     }
 }
+

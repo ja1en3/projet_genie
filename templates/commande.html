@@ -13,11 +13,13 @@
 <body>
     <div class="container-fluid-mb-0 header-border">
         <div class="row">
+
             <div class="col-3 d-flex align-items-center">
-                <p class="m-0"><img class="imag-fluide rounded-6" src="../src/logo.png" alt="Logo" width="150" height="200"></p>
+                <p class="m-0"><img class="imag-fluide rounded-6" id="logo" src="../src/logo.png" alt="Logo" width="200" height="250"></p>
             </div>
 
             <div class="col-6 row justify-content-center d-flex align-items-center">
+
                 <nav class="nav rounded-pill px-3 py-2" id="nav_bar">
 
                     <a class="nav-link text-white border border-light mx-2 rounded-pill" href="/">ACCUEIL</a>
@@ -29,6 +31,7 @@
                     <a class="nav-link text-white border border-light mx-2 rounded-pill" href="/a_propos">A PROPOS</a>
 
                 </nav>
+
             </div>
         </div>
 
@@ -42,7 +45,7 @@
 
         <div class="container" >
 
-            <form class="col-8 d-grid gap-2 col-6 mx-auto" action="/commander" method="post" 
+            <form class="col-8 border border-white bg-transparent d-grid gap-2 col-6 mx-auto" action="/commander" method="post" 
                 style="padding: 20px; border-radius: 10px;" 
                 class="row border border-white-2 justify-content-center align-items-center rounded-5">
                 
@@ -71,8 +74,8 @@
                     <textarea class="form-control" id="order_details" name="order_details" rows="4" required></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-secodary" class="btn-center">Passer la commande</button> <br> <br> <br>
-                <a href="/commandes" class="btn btn-outline-primary">Voir les commandes</a>
+                <a type="submit" class="btn btn-outline-dark btn-center border-white text-white">Passer la commande</a> <br> <br> <br>
+                <button href="/commandes" class="btn btn-outline-dark btn-center border-white text-white">Voir les commandes</button>
                 <br> <br> <br><br> <br> <br>
                 
             </form>
