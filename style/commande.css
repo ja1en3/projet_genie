@@ -1,12 +1,12 @@
 body {
-    background-color: #000000;
+    background-color: rgb(187, 120, 72);
 }
 
  #nav_bar{
     font-family: 'Cause', sans-serif;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
-    color:  rgb(0, 0, 0);
+    background-color:rgb(187, 120, 72);
+    color:  rgb(187, 120, 72);
 }
 
 p,a,.card-title,.card-text,.btn{
@@ -63,9 +63,58 @@ input.btn{
     border-radius: 15px;
     padding: 12px;
     transition: 0.3s;
-    background: rgba(255,255,255,0.08);
+    background:  #ffffff;
 }
 
+.form-control:focus{
+    border-color: rgb(190, 116, 116);
+    box-shadow: 0 0 5px rgba(190, 116, 116, 0.5);
+    outline: none;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #f9f9f9;
+    padding: 60px 0 30px;
+    border-top: 1px solid #eee;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-col{
+    width: 30%;
+}
+
+.footer-col h4{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-col ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
 /* téléphone */
 
 @media screen and (max-width: 768px){
