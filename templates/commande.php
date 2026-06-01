@@ -22,13 +22,13 @@
 
                 <nav class="nav rounded-pill px-3 py-2" id="nav_bar">
 
-                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="/">ACCUEIL</a>
+                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/index.php">ACCUEIL</a>
 
-                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="/commande">COMMANDE</a>
+                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/commande.php">COMMANDE</a>
 
-                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="/menu">MENU</a>
+                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/menu.php">MENU</a>
 
-                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="/a_propos">A PROPOS</a>
+                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/a_propos.php">A PROPOS</a>
 
                 </nav>
 
