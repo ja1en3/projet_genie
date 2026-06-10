@@ -55,215 +55,8 @@
 
             <!-- Carte des plats -->
 
-            
-            <div class="container ">
-                
 
-                    <section class="row g-4">
-                        <h1 class="text-center text-secondary-emphasis">Notre Menu Congolaise</h1><br> <br> <br> <br> <br> <br> 
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/chenielle.jpg" class="card-img-top rounded-top-5" alt="chenielle">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chenielle</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/fumbwa.jpg" class="card-img-top rounded-top-5" alt="fumbwa">
-                                <div class="card-body">
-                                    <h5 class="card-title">Fumbwa</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/kwanga.jpg" class="card-img-top rounded-top-5" alt="kwanga">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kwanga</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/ntamba.jpeg" class="card-img-top rounded-top-5" alt="ntamba">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ntamba</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/pondu.jpg" class="card-img-top rounded-top-5" alt="pondu">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pondu</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/poulet_mayo.jpg" class="card-img-top rounded-top-5" alt="poulet_mayo">
-                                <div class="card-body">
-                                    <h5 class="card-title">Poulet-Mayo</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/poisson.webp" class="card-img-top rounded-top-5" alt="poisson">
-                                <div class="card-body">
-                                    <h5 class="card-title">Poisson</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div><br> <br> <br> <br> <br> <br> 
-                        
-                    </section>
-                        <br> <br> <br> <br> <br> <br> 
-                    <section class="row g-4">
-                        <h1 class="text-center text-secondary-emphasis">Notre Menu International</h1>  <br> <br> <br> <br> <br> <br>  
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/banane.webp" class="card-img-top rounded-top-5" alt="banane">
-                            <div class="card-body">
-                                <h5 class="card-title">Banane</h5>
-                                <p class="card-text">Some quick example text.</p>
-                                <a href="#" class="btn btn-primary">Commander</a>
-                            </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/burger.jpg" class="card-img-top rounded-top-5" alt="burger">
-                                <div class="card-body">
-                                    <h5 class="card-title">Burger</h5>
-                                    <p class="card-text">Some quick example text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/cuisse_de_poulet.jpg" class="card-img-top rounded-top-5" alt="cuisse_de_poulet">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cuisse de Poulet</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/frite.jpg" class="card-img-top rounded-top-5" alt="frite">
-                                <div class="card-body">
-                                    <h5 class="card-title">Frite</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div> 
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/harico.jpg" class="card-img-top rounded-top-5" alt="harico">
-                                <div class="card-body">
-                                    <h5 class="card-title">Harico</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/patte.jpg" class="card-img-top rounded-top-5" alt="patte">
-                                <div class="card-body">
-                                    <h5 class="card-title">Patte</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/pizza.webp" class="card-img-top rounded-top-5" alt="pizza">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pizza</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div> 
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/salade.webp" class="card-img-top rounded-top-5" alt="salade">
-                                <div class="card-body">
-                                    <h5 class="card-title">Salade</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/saussice.webp" class="card-img-top rounded-top-5" alt="saussice">
-                                <div class="card-body">
-                                    <h5 class="card-title">Saussice</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="card border border-dark rounded-5">
-                                <img src="../src/shawarma.avif" class="card-img-top rounded-top-5" alt="shawarma">
-                                <div class="card-body">
-                                    <h5 class="card-title">Shawarma</h5>
-                                    <p class="card-text">text.</p>
-                                    <a href="#" class="btn btn-primary">Commander</a>
-                                </div>
-                            </div>
-                        </div>
-
-            </div>
-
-        </div>
-
-        <br> <br> <br> <br> <br> <br>
-
-        <div class="container mt-4">
-
-    <!-- MENU -->
+        <!-- MENU -->
     <ul class="nav nav-pills justify-content-center mb-4">
 
         <li class="nav-item">
@@ -301,91 +94,117 @@
     </ul>
 
 
-    <!-- CONTENU -->
-    <div class="tab-content">
+  <!--      CONTENU
 
-        <!-- TOUS -->
-        <div class="tab-pane fade show active" id="all">
+             TOUS
+            <section class="tab-pane fade show active" id="all">
 
-            <div class="row g-4">
+                <div class="row g-4">
 
-                <div class="col-md-4">
-                    <div class="food-card">
-                        <img src="salade.jpg">
-                        <h4 class="mt-3">Salade</h4>
+                    <div class="col-md-4 card-body">
+                        <div class="food-card">
+                            <img src="../src/buffet.jpg">
+                            <h4 class="mt-3 card-title  btn btn-outline-warning">Salade</h4>
+                            <p class="card-text"></p>
+                        </div>
                     </div>
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="../src/poulet_mayo.jpg">
+                            <h4 class="mt-3">Poulet braisé</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="burger.jpg">
+                            <h4 class="mt-3">Burger</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <br> <br><br> <br>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="salade.jpg">
+                            <h4 class="mt-3">Salade</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="poulet.jpg">
+                            <h4 class="mt-3">Poulet braisé</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="burger.jpg">
+                            <h4 class="mt-3">Burger</h4>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="col-md-4">
-                    <div class="food-card">
-                        <img src="poulet.jpg">
-                        <h4 class="mt-3">Poulet braisé</h4>
+            </section>
+
+
+             LEGUMES 
+            <section class="tab-pane fade" id="legume">
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="salade.jpg">
+                            <h4 class="mt-3">Salade</h4>
+                        </div>
                     </div>
+
                 </div>
 
-                <div class="col-md-4">
-                    <div class="food-card">
-                        <img src="burger.jpg">
-                        <h4 class="mt-3">Burger</h4>
+            </section>
+
+
+            POULET 
+            <section class="tab-pane fade" id="poulet">
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="../src/poulet_mayo.jpg">
+                            <h4 class="mt-3">Poulet braisé</h4>
+                        </div>
                     </div>
+
                 </div>
 
-            </div>
+            </section>
+
+
+            FASTFOOD 
+            <section class="tab-pane fade" id="fastfood">
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="food-card">
+                            <img src="burger.jpg">
+                            <h4 class="mt-3">Burger</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
 
         </div>
-
-
-        <!-- LEGUMES -->
-        <div class="tab-pane fade" id="legume">
-
-            <div class="row g-4">
-
-                <div class="col-md-4">
-                    <div class="food-card">
-                        <img src="salade.jpg">
-                        <h4 class="mt-3">Salade</h4>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- POULET -->
-        <div class="tab-pane fade" id="poulet">
-
-            <div class="row g-4">
-
-                <div class="col-md-4">
-                    <div class="food-card">
-                        <img src="poulet.jpg">
-                        <h4 class="mt-3">Poulet braisé</h4>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- FASTFOOD -->
-        <div class="tab-pane fade" id="fastfood">
-
-            <div class="row g-4">
-
-                <div class="col-md-4">
-                    <div class="food-card">
-                        <img src="burger.jpg">
-                        <h4 class="mt-3">Burger</h4>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
 
     <style>
         .food-card{
@@ -403,12 +222,230 @@
                 border-radius: 15px;
             }
 
-    </style>
+    </style> -->
+
+            
+            <div class="container">
+                
+
+                    <section class="row g-4"  id="all">
+                     <!--   <h1 class="text-center text-secondary-emphasis">Notre Menu Congolaise</h1><br> <br> <br> <br> <br> <br> -->
+                        <div id="legume" class="row g-4">
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/chenielle.jpg" class="card-img-top rounded-top-5" alt="chenielle">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chenille</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/fumbwa.jpg" class="card-img-top rounded-top-5" alt="fumbwa">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fumbwa</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/pondu.jpg" class="card-img-top rounded-top-5" alt="pondu">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pondu</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/banane.webp" class="card-img-top rounded-top-5" alt="banane">
+                                <div class="card-body">
+                                    <h5 class="card-title">Banane</h5>
+                                    <p class="card-text">Some quick example text.</p>
+                                    <a href="#" class="btn btn-primary">Commander</a>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/salade.webp" class="card-img-top rounded-top-5" alt="salade">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salade</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/harico.jpg" class="card-img-top rounded-top-5" alt="harico">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Harico</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--POULET-->
+
+                        <div id="poulet et viande" class="row g-4">
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/ntamba.jpeg" class="card-img-top rounded-top-5" alt="ntamba">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ntamba</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/poulet_mayo.jpg" class="card-img-top rounded-top-5" alt="poulet_mayo">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Poulet-Mayo</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                            
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/kwanga.jpg" class="card-img-top rounded-top-5" alt="kwanga">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kwanga</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
 
 
-</div>
+                            
 
+                            
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/poisson.webp" class="card-img-top rounded-top-5" alt="poisson">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Poisson</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--   <h1 class="text-center text-secondary-emphasis">Notre Menu International</h1>  <br> <br> <br> <br> <br> <br>  -->
+
+                            
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/burger.jpg" class="card-img-top rounded-top-5" alt="burger">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Burger</h5>
+                                        <p class="card-text">Some quick example text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/cuisse_de_poulet.jpg" class="card-img-top rounded-top-5" alt="cuisse_de_poulet">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cuisse de Poulet</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
         
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/frite.jpg" class="card-img-top rounded-top-5" alt="frite">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Frite</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/patte.jpg" class="card-img-top rounded-top-5" alt="patte">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Patte</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/pizza.webp" class="card-img-top rounded-top-5" alt="pizza">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pizza</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/saussice.webp" class="card-img-top rounded-top-5" alt="saussice">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Saussice</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border border-dark rounded-5">
+                                    <img src="../src/shawarma.avif" class="card-img-top rounded-top-5" alt="shawarma">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Shawarma</h5>
+                                        <p class="card-text">text.</p>
+                                        <a href="#" class="btn btn-primary">Commander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                </div>
+
+        </div>
+
+        <br> <br> <br> <br> <br> <br>
+          
 
         <footer>
             <div class="footer-container">
