@@ -1,3 +1,10 @@
 {
+    "files.associations": {
+        "*.php": "php",
+        "*.phtml": "php",
+        "templates/*.php": "php"
+    },
+    "php.validate.enable": true
+}{
     "liveServer.settings.port": 5501
 }
