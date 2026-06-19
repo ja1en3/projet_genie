@@ -20,7 +20,7 @@
             <div class="col-8 row justify-content-center d-flex align-items-center">
                 <nav class="nav rounded-pill px-3 py-2" id="nav_bar">
 
-                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/index.php">ACCUEIL</a>
+                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/acceuil.php">ACCUEIL</a>
 
                     <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/commande.php">COMMANDE</a>
 

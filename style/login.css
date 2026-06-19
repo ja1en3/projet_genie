@@ -102,18 +102,8 @@ nav a {
     object-fit: cover;
 }
 
-.form-control{
-    border-radius: 15px;
-    padding: 12px;
-    transition: 0.3s;
-    background:  #ffffff;
-}
+/* ===== FORMULAIRE ===== */
 
-.form-control:focus{
-    border-color: rgb(190, 116, 116);
-    box-shadow: 0 0 5px rgba(190, 116, 116, 0.5);
-    outline: none;
-}
 form{
     background-color: rgb(201, 137, 87);
     border-radius: 25px !important;
@@ -130,4 +120,25 @@ input.btn{
     border-radius: 20px;
     padding: 10px;
     transition: 0.3s;
+}
+
+/* form {
+    background-color: rgb(160, 158, 158);
+    transform: translateY(20px);
+    border-radius: 20px;
+} */
+
+/* ===== INPUT ===== */
+
+.form-control{
+    border-radius: 15px;
+    padding: 12px;
+    transition: 0.3s;
+    background:  #ffffff;
+}
+
+.form-control:focus{
+    border-color: rgb(190, 116, 116);
+    box-shadow: 0 0 5px rgba(190, 116, 116, 0.5);
+    outline: none;
 }

@@ -46,10 +46,12 @@ if(isset($_POST['connexion']))
 </head>
 <body>
 
-<h2>Connexion Administration</h2>
+<h2 class="text-center border border-white-2 mx-2 rounded-pill" style="padding: 20px; border-radius: 10px;">Connexion Administration</h2>
+
+<br><br><br>
 
 <form class="col-8 border border-white bg-transparent d-grid gap-2 col-6 mx-auto" method="POST">
-    <div class="form-container border-white-2 id gap-2 col-6 mx-auto" style="padding: 20px; border-radius: 10px;">
+    <div class="form-container border-white-2 id gap-2 mx-auto text-center" style="padding: 20px; border-radius: 10px;">
         <input type="text" name="nom" placeholder="Nom d'utilisateur">
         <br><br>
 
@@ -57,23 +59,25 @@ if(isset($_POST['connexion']))
 
         <br><br>
 
-        <div class="text-center mb-4">
-            <button type="submit" name="connexion" class="btn btn-primary col-4 mx-auto">
+        <div class="text-center mb-4 rounded-pill row">
+            <button type="submit" name="connexion" class="btn btn-filtre btn-primary mx-2 rounded-pill">
                 Connexion
             </button>
 
-            <button class="btn btn-filtre btn-primary mx-2 rounded-pill"><a href="" style="text-decoration: none; color: white;">Connexion</a></button>
+            <br><br>
 
-            <button class="btn btn-filtre btn-primary mx-2 rounded-pill"><a href="utilisateurs.php" style="text-decoration: none; color: white;">Ajouter un utilisateur</a></button>
+            <button class="btn btn-filtre btn-primary mx-2 rounded-pill"><a href="../index.php" style="text-decoration: none; color: white;">
+                Retour
+            </a></button>
 
-            <button class="btn btn-filtre btn-primary mx-2 rounded-pill">Tous</button>
+            <br><br>
 
+            <button class="btn btn-filtre btn-primary mx-2 rounded-pill"><a href="utilisateurs.php" style="text-decoration: none; color: white;">
+                Ajouter un utilisateur
+            </a></button>
         </div>
 
         </div>
-
-    </div>
-    
 
 </form>
 

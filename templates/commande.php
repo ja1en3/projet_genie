@@ -22,7 +22,7 @@
 
                 <nav class="nav rounded-pill px-3 py-2" id="nav_bar">
 
-                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/index.php">ACCUEIL</a>
+                    <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/acceuil.php">ACCUEIL</a>
 
                     <a class="nav-link text-white border border-light mx-2 rounded-pill" href="../templates/commande.php">COMMANDE</a>
 
@@ -45,9 +45,9 @@
 
         <div class="container" >
 
-            <form class="col-8 border border-white bg-transparent d-grid gap-2 col-6 mx-auto" action="/commander" method="post" 
-                style="padding: 20px; border-radius: 10px;" 
-                class="row border border-white-2 justify-content-center align-items-center rounded-5">
+            <form action="/commander" method="post" 
+                class="row justify-content-center align-items-center g-2 col-6 mx-auto border border-white rounded-5 bg-transparent" 
+                style="padding: 20px;">
                 
                 <div class="mb-3">
                     <label for="name" class="form-label">Nom</label>
@@ -74,7 +74,7 @@
                     <textarea class="form-control" id="order_details" name="order_details" rows="4" required></textarea>
                 </div>
 
-                <a type="submit" class="btn btn-outline-light btn-center border-white text-dark">Passer la commande</a> <br> <br> <br>
+                <button type="submit" class="btn btn-outline-light btn-center border-white text-dark">Passer la commande</button> <br> <br> <br>
                 <button href="/commandes" class="btn btn-outline-light btn-center border-white text-dark">Voir les commandes</button>
                 <br> <br> <br><br> <br> <br>
                 
